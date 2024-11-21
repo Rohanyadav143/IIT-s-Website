@@ -1,0 +1,84 @@
+<html>
+<head>
+    <link rel="Stylesheet" href="one.css">
+</head>
+<body>
+    <div class="front">
+        <div class="rot">
+            <spy>
+                <h1>IIT</h1>
+                <p>
+                    INDIAN INSTITUTE OF TECHNOLOGY.
+                </p>
+            </spy>
+        </div>
+    </div>
+    <div class="content">
+        <header id="one">
+            <a href="index.html">Home</a>
+            <a href="two.html">IIT's</a>
+            <a href="three.html">List's IIT</a>
+            <input placeholder="Search IIT's.in...." id="search">
+            <button onclick="searchFunction()">Search</button><br><br>
+        </header>
+        <div id="two">
+            <h1>Basic Information</h1>
+            <form id="form">
+                <h1>Name : </h1>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <h1>Father's Name : </h1>
+                <input type="text" id="fatherName" name="fatherName" required><br><br>
+                
+                <h1>Address : </h1>
+                <input type="text" id="address" required><br><br>
+                    
+                <h1>Date of Birth : </h1>
+                <input type="date" id="dob" name="dob" required><br><br>
+                    
+                <h1>Mobile Number : </h1>
+                <input type="tel" id="mobileNumber" name="mobileNumber" required><br><br>
+                
+                <h1>Email : </h1>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <h1>Gender : </h1>
+                <div id="Gender">
+                    <input type="radio" id="genderMale" name="gender" value="Male" required>
+                    <h2>Male</h2>
+                    <input type="radio" id="genderFemale" name="gender" value="Female" required>
+                    <h2>Female</h2>                
+                    <input type="radio" id="genderOther" name="gender" value="Other" required>
+                    <h2>Other</h2>
+                </div><br><br>
+                
+                <h1>Qualification : </h1>
+                <div id="Qualification">
+                    <input type="checkbox" id="graduate" name="qualification" value="Graduate">
+                    <h2>Graduate</h2>
+                    <input type="checkbox" id="12th" name="qualification" value="12th">
+                    <h2>Inter</h2>
+                    <input type="checkbox" id="10th" name="qualification" value="10th">
+                    <h2>HighSchool</h2>
+                </div><br><br>
+                
+                <h1>Hobbies:</h1>
+                <div id="Hobbies">
+                    <input type="checkbox" id="hobbyReading" name="hobbies" value="Reading">
+                    <h2>Reading</h2>
+                    <input type="checkbox" id="hobbyGaming" name="hobbies" value="Gaming">
+                    <h2>Gaming</h2>            
+                    <input type="checkbox" id="hobbyCoading" name="hobbies" value="Coding">
+                    <h2>Coading</h2>            
+                </div>
+            <input type="button" id="button" value="Skip" onclick="v()">              
+            <input type="button" id="button" value="Next" onclick="vAndO()">
+            </form>
+        </div>        
+        <div id="copy">
+            <h1>@ Copyright ©2024 Indian Institute of Technology . All Rights Reserved.</h1>
+        </div>
+    </div>
+    <script type="text/javascript" src="one.js"></script>
+</body>
+</html>
